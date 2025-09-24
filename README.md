@@ -28,4 +28,32 @@ Ligne de commande : javac, java, jar
 Le diagramme de classe a été conçu avec diagrams.net (Draw.io).
 
 🏗️ Structure du projet
-L’application est organisée en plusieurs couches pour respecter les bonnes pratiques d’architecture logicielle :
+L’application est organisée en plusieurs couches pour respecter les bonnes pratiques d’architecture logicielle 
+
+---
+
+## ✅ Fonctionnalités détaillées
+- **Créer un compte**  
+  - Génération automatique d’un code (format `CPT-XXXXX`)  
+  - Compte Courant avec découvert autorisé  
+  - Compte Épargne avec taux d’intérêt configurable  
+
+- **Effectuer des opérations**  
+  - Versement (ajout d’argent)  
+  - Retrait (avec règles métier)  
+  - Virement entre comptes (réutilisation de versement + retrait)  
+
+- **Consulter les informations**  
+  - Solde actuel  
+  - Historique complet des opérations avec date et type  
+
+---
+
+## 📋 Prérequis
+- **Java Development Kit (JDK) 8**  
+  Vérifier l’installation :
+  ```bash
+  java -version
+
+![Diagramme de Classe](https://app.diagrams.net/?src=about)
+![Jira](https://yacinemarzou7.atlassian.net/jira/software/projects/CRM/boards/1)
